@@ -93,5 +93,15 @@ Copy code
 
 ---
 
-👆 Ovo je **"master" README** koji dokumentira projekt od A do Ž.  
-Hoćeš da ga odmah prilagodim tako da se u **Artifacts** sekciji eksplicitno naglasi kako korisnik može preuzeti rezultate sa GitHub Actions (korak-po-korak)?
+
+### 🔽 Preuzimanje artefakata
+
+Ako želiš skinuti rezultate koje workflow generira:
+
+1. Idi na [GitHub Actions tab](../../actions).  
+2. Odaberi workflow run (npr. `main.yml`).  
+3. Scrollaj dolje do sekcije **Artifacts**.  
+4. Klikni na ZIP fajl i preuzmi rezultate (grafove, CSV logove, izvještaje).  
+
+ℹ️ Artefakti se automatski brišu nakon **90 dana** (podešeno u workflowu).
+
