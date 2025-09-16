@@ -1,0 +1,29 @@
+# Python cache i privremeni fajlovi
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualna okruženja
+.env
+.venv
+env/
+venv/
+
+# Rezultati i privremeni folderi
+results/
+output/
+tmp/
+*.log
+*.csv
+
+# Jupyter Notebook checkpointi
+.ipynb_checkpoints/
+
+# VSCode i editor konfiguracije
+.vscode/
+.idea/
+
+# OS fajlovi
+.DS_Store
+Thumbs.db
